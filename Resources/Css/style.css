@@ -1,0 +1,12 @@
+html {
+  font-size: 18px;
+}
+.container {
+  max-width: 1050px;
+  margin: auto;
+}
+body {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 1rem;
+  background-color: white;
+}
