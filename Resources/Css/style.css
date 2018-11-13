@@ -10,3 +10,143 @@ body {
   font-size: 1rem;
   background-color: white;
 }
+h1 {
+  font-size: 2.15rem;
+  color: #383838;
+  font-weight: 700;
+}
+
+h2 {
+  font-size: 1.9rem;
+  color: #383838;
+  font-weight: 700;
+}
+
+h4 {
+  font-size: 1.25rem;
+  color: #383838;
+  font-weight: 500;
+  line-height: 1.45rem;
+}
+
+h6 {
+  font-size: 1.10rem;
+  color: #383838;
+  font-weight: 500;
+}
+
+p {
+  font-weight: 400;
+  font-size: .8rem;
+  line-height: 1.1rem;
+  color: gray;
+}
+
+span {
+  font-size: .75rem;
+  color: #383838;
+  line-height: .95rem;
+}
+
+/* Header */
+header {
+  background-color: white;
+}
+header .container {
+  display: flex;
+  text-align: center;
+  justify-content: space-between;
+  height: 64px;
+}
+.logo {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.logo img {
+  margin-left: 24px;
+  height: 2.75rem;
+}
+.Colmar {
+  font-size: 1rem;
+  font-weight: 700;
+}
+.Academy {
+  font-size: 1rem;
+  font-weight: 400;
+  color: gray;
+}
+nav {
+  display: flex;
+  text-align: right;
+  align-items: center;
+  margin-right: 24px;
+}
+.desktop span {
+  padding-left: 16px;
+  color: #383838;
+  font-size: 1rem;
+}
+nav span:hover {
+color: #808080;
+}
+
+/* Main Banner */
+.main-banner {
+background-color: #DCDCDC;
+margin: 0 auto;
+}
+.main-banner .container {
+  display: flex;
+  justify-content: space-between;
+}
+.left-section {
+  width: 60%;
+  padding: 32px 24px;
+}
+.left-section img {
+  width: 100%;
+}
+.right-section {
+  width: 440px;
+}
+.banner-text {
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-left:20px;
+  margin-top: 6rem;
+}
+.banner-text h4 {
+  margin-top: 32px;
+  margin-bottom: 32px;
+}
+.banner-text a {
+  background-color: #383838;
+  text-align: center;
+  text-decoration: none;
+  color: white;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  width: 320px;
+}
+.banner-text a:hover {
+  background-color: #808080;
+}
+.banner-text a:active {
+  background-color: #808080;
+}
+
+/* 2nd section */
+.practice {
+  display: flex;
+  justify-content: space-between;
+}
+.left-section h2 {
+  padding-top: 32px;
+}
+.left-section p {
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
