@@ -142,6 +142,7 @@ margin: 0 auto;
 .practice {
   display: flex;
   justify-content: space-between;
+  height: auto;
 }
 .left-section h2 {
   padding-top: 32px;
@@ -149,4 +150,47 @@ margin: 0 auto;
 .left-section p {
   padding-top: 24px;
   padding-bottom: 24px;
+}
+.practice .right-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  border-left: 1px solid #DCDCDC;
+  padding: 16px 0px 32px 0px;
+  }
+  .box {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #DCDCDC;
+  }
+  .box img {
+    width: 35%;
+    padding: 16px;
+  }
+  .content p {
+    padding-top: 8px;
+    padding-bottom: 8px;
+  }
+  .lecture {
+    background-color: #dcdcdc;
+  }
+.content a {
+  font-size: 0.8rem;
+}
+.lecture .content {
+  padding-left: 20px;
+}
+.content a {
+    color: #4ba3f4;
+    text-decoration: none;
+    font-size: 14px;
+    display: block;
+    padding-top: .7rem;
+}
+.content a:hover {
+  color: #9dcdf9;
+  text-decoration: underline;
 }
